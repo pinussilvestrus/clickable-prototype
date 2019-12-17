@@ -5,6 +5,12 @@
   height: 100%;
 }
 
+.view {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .area {
   position: fixed;
 }

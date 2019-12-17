@@ -5,7 +5,8 @@ import styles from '../styles.css'
 
 export default class InteractionArea extends Component {
   static propTypes = {
-    position: PropTypes.object
+    position: PropTypes.object,
+    to: PropTypes.string
   }
 
   render() {
