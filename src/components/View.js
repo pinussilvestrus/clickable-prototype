@@ -5,17 +5,20 @@ import styles from '../styles.css'
 
 export default class View extends Component {
   static propTypes = {
-    screen: PropTypes.string
+    screen: PropTypes.string,
+    children: PropTypes.object
   }
 
   render() {
     const {
-      screen
+      screen,
+      children
     } = this.props
 
     return (
       <div className={styles.view}>
         <img src={screen} />
+        { children }
       </div>
     )
   }
