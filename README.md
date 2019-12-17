@@ -1,4 +1,4 @@
-# clickable-prototype
+# clickable-prototype ⚠️WIP⚠️
 
 > React Framework for creating clickable prototypes
 
@@ -15,15 +15,22 @@ npm install --save clickable-prototype
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'clickable-prototype'
+import { View, InteractionArea } from 'clickable-prototype'
 
-class Example extends Component {
+import view1 from './views/view1.png'
+
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+        <View screen={view1}>
+          <InteractionArea position={{y: 81, x: 644, width: 50, height: 10}} />
+        </View>
+      </div>
     )
   }
 }
+
 ```
 
 ## License
