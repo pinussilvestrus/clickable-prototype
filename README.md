@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/clickable-prototype.svg)](https://www.npmjs.com/package/clickable-prototype) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/pinussilvestrus/clickable-prototype.svg?branch=master)](https://travis-ci.org/pinussilvestrus/clickable-prototype)
 
+[**Demo Page**](https://clickable-prototype.netlify.com/)
+
 ## Install
 
 ```bash
