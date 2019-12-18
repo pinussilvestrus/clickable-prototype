@@ -30,7 +30,7 @@ export default class View extends Component {
 
     const areaDiv = React.Children.map(children, child => {
       return (
-        <div onClick={handleAreaClick.bind(this, child)}>{child}</div>
+        <div onClick={() => handleAreaClick(child)}>{child}</div>
       )
     })
 
