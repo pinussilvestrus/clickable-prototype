@@ -6,6 +6,7 @@ import styles from '../styles.css'
 export default class HitBox extends Component {
   static propTypes = {
     position: PropTypes.object,
+    /* eslint-disable-next-line react/no-unused-prop-types */
     to: PropTypes.string
   }
 
