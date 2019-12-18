@@ -11,10 +11,10 @@
   left: 0;
 }
 
-.area {
+.hit-box {
   position: fixed;
 }
 
-.area:hover {
+.hit-box:hover {
   cursor: pointer;
 }

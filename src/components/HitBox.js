@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import styles from '../styles.css'
 
-export default class InteractionArea extends Component {
+export default class HitBox extends Component {
   static propTypes = {
     position: PropTypes.object,
     to: PropTypes.string
@@ -16,7 +16,7 @@ export default class InteractionArea extends Component {
 
     return (
       <div
-        className={styles.area}
+        className={styles['hit-box']}
         style={{
           top: position.y,
           left: position.x,

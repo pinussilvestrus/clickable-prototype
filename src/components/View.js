@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import InteractionArea from './InteractionArea'
-
 import styles from '../styles.css'
 
 export default class View extends Component {

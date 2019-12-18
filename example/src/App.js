@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { View, InteractionArea, ViewContainer } from 'clickable-prototype'
+import { View, HitBox, ViewContainer } from 'clickable-prototype'
 
 import view1 from './views/view1.png'
 import view2 from './views/view2.png'
@@ -11,7 +11,7 @@ export default class App extends Component {
       <div>
         <ViewContainer defaultView='view1'>
           <View key='view1' screen={view1}>
-            <InteractionArea
+            <HitBox
               position={{y: 81, x: 644, width: 50, height: 20}}
               to='view2' />
           </View>
