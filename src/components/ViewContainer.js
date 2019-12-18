@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import styles from '../styles.css'
-
 export default class ViewContainer extends Component {
   static propTypes = {
     defaultView: PropTypes.string,
-    children: PropTypes.array
+    children: PropTypes.array,
+    className: PropTypes.string
   }
 
   state = {
@@ -41,7 +40,7 @@ export default class ViewContainer extends Component {
 
     return (
       <div
-        className={styles.viewContainer}>
+        className={this.props.className}>
         {children}
       </div>
     )
