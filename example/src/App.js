@@ -11,14 +11,22 @@ export default class App extends Component {
       <div>
         <h1><span>clickable-prototype</span> Demo</h1>
         <ViewContainer defaultView='view1' className='container'>
-          <View key='view1' screen={view1}>
+          <View
+            key='view1'
+            screen={view1}
+            width='1420px'
+            height='730px'>
             <HitBox
-              position={{y: 365, x: 560, width: 330, height: 70}}
+              position={{y: 325, x: 555, width: 320, height: 70}}
               to='view2' />
           </View>
-          <View key='view2' screen={view2}>
+          <View
+            key='view2'
+            screen={view2}
+            width='1420px'
+            height='730px'>
             <HitBox
-              position={{y: 500, x: 560, width: 330, height: 70}}
+              position={{y: 450, x: 555, width: 320, height: 70}}
               to='view1' />
           </View>
         </ViewContainer>

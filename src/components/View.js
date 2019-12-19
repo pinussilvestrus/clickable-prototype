@@ -8,7 +8,9 @@ export default class View extends Component {
     screen: PropTypes.string,
     children: PropTypes.object,
     onSwitchView: PropTypes.func,
-    visible: PropTypes.bool
+    visible: PropTypes.bool,
+    width: PropTypes.string,
+    height: PropTypes.string
   }
 
   handleAreaClick = (area) => {
@@ -23,7 +25,9 @@ export default class View extends Component {
     const {
       screen,
       children,
-      visible
+      visible,
+      width,
+      height
     } = this.props
 
     const handleAreaClick = this.handleAreaClick
@@ -37,7 +41,11 @@ export default class View extends Component {
     return (
       <div
         className={styles.view}
-        style={{visibility: visible ? 'visible' : 'hidden'}}>
+        style={{
+          visibility: visible ? 'visible' : 'hidden',
+          width,
+          height
+        }}>
         <img src={screen} />
         { areaDiv }
       </div>
