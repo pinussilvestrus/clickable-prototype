@@ -10,7 +10,8 @@ export default class View extends Component {
     onSwitchView: PropTypes.func,
     visible: PropTypes.bool,
     width: PropTypes.string,
-    height: PropTypes.string
+    height: PropTypes.string,
+    className: PropTypes.string
   }
 
   handleAreaClick = (area) => {
@@ -24,6 +25,7 @@ export default class View extends Component {
   render() {
     const {
       screen,
+      className,
       children,
       visible,
       width,
@@ -40,7 +42,7 @@ export default class View extends Component {
 
     return (
       <div
-        className={styles.view}
+        className={`${styles.view} ${className}`}
         style={{
           visibility: visible ? 'visible' : 'hidden',
           width,

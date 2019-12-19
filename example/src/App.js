@@ -13,20 +13,22 @@ export default class App extends Component {
         <ViewContainer defaultView='view1' className='container'>
           <View
             key='view1'
+            className='custom-view'
             screen={view1}
-            width='1420px'
-            height='730px'>
+            width='1220px'
+            height='630px'>
             <HitBox
-              position={{y: 325, x: 555, width: 320, height: 70}}
+              position={{y: 380, x: 477, width: 280, height: 60}}
               to='view2' />
           </View>
           <View
             key='view2'
+            className='custom-view'
             screen={view2}
-            width='1420px'
-            height='730px'>
+            width='1220px'
+            height='630px'>
             <HitBox
-              position={{y: 450, x: 555, width: 320, height: 70}}
+              position={{y: 490, x: 477, width: 280, height: 60}}
               to='view1' />
           </View>
         </ViewContainer>
