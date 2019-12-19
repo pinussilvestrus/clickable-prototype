@@ -1,7 +1,7 @@
 {
   "name": "clickable-prototype",
   "version": "0.2.0",
-  "description": "React Framework for creating clickable prototypes",
+  "description": "Lightweight React Framework for creating clickable Prototypes",
   "author": "pinussilvestrus",
   "license": "MIT",
   "repository": "pinussilvestrus/clickable-prototype",
@@ -17,8 +17,10 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
+    "start:example": "cd example && npm run start",
     "prepare": "npm run build",
-    "predeploy": "cd example && npm install && npm run build"
+    "predeploy": "cd example && npm install && npm run build",
+    "dev": "run-p start start:example"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -45,6 +47,7 @@
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^1.2.0",
+    "npm-run-all": "^4.1.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^3.3.0",
