@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * /
 
+## v0.3.0
+
+* `FEAT`: ability to declare width / height on `View` component ([#6](https://github.com/pinussilvestrus/clickable-prototype/issues/6))
+* `FEAT`: ability to declare className on `View` component ([`d24388ec`](https://github.com/pinussilvestrus/clickable-prototype/commit/d24388ec83e03e3b24884950ccbbd9cda6c687e9))
+
 ## v0.2.0
 
 * `FIX`: fix `npm audit` errors
