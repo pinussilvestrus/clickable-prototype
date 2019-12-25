@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * /
 
+## v0.4.0
+
+* `CHORE`: bump dependencies
+
 ## v0.3.0
 
 * `FEAT`: ability to declare width / height on `View` component ([#6](https://github.com/pinussilvestrus/clickable-prototype/issues/6))
