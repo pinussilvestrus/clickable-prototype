@@ -2,7 +2,7 @@
 
 > Lightweight React Library for creating clickable Prototypes
 
-[![NPM](https://img.shields.io/npm/v/clickable-prototype.svg)](https://www.npmjs.com/package/clickable-prototype) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/pinussilvestrus/clickable-prototype.svg?branch=master)](https://travis-ci.org/pinussilvestrus/clickable-prototype) ![npm bundle size](https://img.shields.io/bundlephobia/min/clickable-prototype)
+[![NPM](https://img.shields.io/npm/v/clickable-prototype.svg)](https://www.npmjs.com/package/clickable-prototype) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![Build Status](https://github.com/pinussilvestrus/clickable-prototype/workflows/ci/badge.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/clickable-prototype)
 
 [**Demo Page**](https://clickable-prototype.netlify.com/)
 
